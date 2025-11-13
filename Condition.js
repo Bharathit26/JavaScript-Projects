@@ -33,3 +33,53 @@ function gradeScore(score){
     }
 }
 gradeScore(85); //Grade B
+
+//if-else-if condition which accepts the string as input (Type) is 'Tier 1', 'Tier 2', 'Tier 3'
+function companyType(type){
+    if(type==='Tier 1'){
+        console.log("Company pays 10 LPA");
+    }
+    else if(type==='Tier 2'){
+        console.log("Company pays 7 LPA");
+    }
+    else if(type==='Tier 3'){
+        console.log("Company pays 5 LPA");  
+    }
+    else{
+        console.log("No Job Offer");    
+    }
+}
+companyType('Tier 4'); //No Job Offer
+
+//Switch case function
+function comapanyTypeSwitch(type){
+    switch(type){
+        case 'Tier 1':
+            console.log("Company pays 10 LPA");
+            break;
+        case 'Tier 2':
+            console.log("Comapany pays 7 LPA");
+            break;
+        case 'Tier 3':
+            console.log("Company pays 5 LPA");
+            break;
+        default:
+            console.log("No Job Offer");
+    }
+}
+comapanyTypeSwitch('Tier 2'); //Comapany pays 7 LPA
+
+let type = 'Tier 3';
+switch(type){
+    case 'Tier 1':
+        console.log("Company pays 10 LPA");
+        break;
+    case 'Tier 2':
+        console.log("Comapany pays 7 LPA");
+        break;
+    case 'Tier 3':
+        console.log("Company pays 5 LPA");
+        break;
+    default:
+        console.log("No Job Offer");
+}
