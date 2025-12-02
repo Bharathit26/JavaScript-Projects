@@ -10,7 +10,8 @@ console.log("I am from " + city);
 
 // const in JavaScript: It cannot be redefined or re-declared
 const country = "India";
-console.log("which is in " + country)
+console.log("which is in " + country, "\n");
+
 
 //function in JavaScript
 function hello(){

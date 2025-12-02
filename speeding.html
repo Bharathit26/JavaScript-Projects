@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>speed system</title>
+    <script>
+    function speeding(){
+        let speed = 0;
+        return {
+            accelerate: function () {
+                speed = speed + 10;
+                return speed;
+            },
+            breaks: function (){
+                speed = speed - 5;
+                return speed;
+            },
+        };
+    }
+
+    let data = speeding();
+    let statement = "";
+
+    function breaks(){
+        let value = data.breaks();
+        statement = `I am driving at a speed $   {value}`;
+        document.getElementById("action").innerHTML = statement;
+    }
+
+    function accelerate(){
+        let value = data.accelerate();
+        statement = `I am driving at a speed ${value}`;
+        document.getElementById("action").innerHTML = statement;
+    }
+    </script>
+</head>
+<body>
+    <h1>My first acton page in HTML</h1>
+    <h3 id="action"></h3>
+    <button onclick="breaks()" >Break</button>
+    <button onclick="accelerate()">Accelerate</button>
+</body>
+</html>

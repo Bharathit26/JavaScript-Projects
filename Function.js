@@ -47,3 +47,17 @@ function mul(a,b){
 }
 let value = mul(26,5);
 console.log("The product of two numbers is: " + value);
+
+//Arrow Functions: it is also called as fat arrow functions
+//syntax: let functionName = (parameters) => {function body}
+//It is used in handling this keyword in JavaScript
+
+//setTimeout function in JavaScript: used for delayed response in asynchronous data
+setTimeout(() => {
+    console.log("This is executed after 5 seconds");
+}, 5000);
+
+//setInterval function in JavaScript: used for repeated execution at specified intervals in asynchronous data
+setInterval(() => {
+    console.log("This is executed after 5 seconds");
+}, 5000);

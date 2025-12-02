@@ -1,0 +1,76 @@
+#one{
+    display:inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+}
+
+#two{
+    /* display:inline-block; */
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+#three{
+    /* display:inline-block; */
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+#four{
+      /* display:inline-block; */
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+#five{
+    display:inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#six{
+    display:inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#seven{
+    display:inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#eight{
+    display:inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+/* div{
+    unicode-bidi: isolate;
+    color:aqua;
+} */

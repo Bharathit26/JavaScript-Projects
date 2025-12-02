@@ -1,6 +1,6 @@
-Types of Datatypes in JavaScript:
+/* Types of Datatypes in JavaScript:
 1. Primitive : Number, String, Boolean, Null, Undefined, BigInt, Array
-2.  Non-Primitive: Object, Symbol, Function, Set, Map, Date, RegExp, Error
+2.  Non-Primitive: Object, Symbol, Function, Set, Map, Date, RegExp, Error */
 let value;
 console.log(value); //undefined
 
@@ -18,3 +18,5 @@ console.log(typeof val1); //boolean
 
 let val2 = null;
 console.log(typeof val2); //object
+
+
